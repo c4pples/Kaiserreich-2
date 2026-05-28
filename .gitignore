@@ -1,0 +1,29 @@
+# Windows / editor clutter
+Thumbs.db
+Desktop.ini
+*.tmp
+*.bak
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# HOI4 generated files and local cache
+*.log
+logs/
+crashes/
+dump/
+map/cache/
+map/terrain/trees.bmp
+
+# Build / export artifacts
+*.zip
+*.7z
+*.rar
+*.mod.bak
+release/
+dist/
+
+# Local-only notes
+local/
+scratch/
