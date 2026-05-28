@@ -14,6 +14,8 @@ This project treats Kaiserreich as historical canon and reference material. Its 
 
 ## Documentation Map
 
+- [Implementation Plan](docs/implementation_plan.md)
+- [Upstream Reference](docs/upstream_reference.md)
 - [Canon Assumptions](docs/canon_assumptions.md)
 - [Postwar Timeline](docs/postwar_timeline.md)
 - [Factions and Ideological Blocs](docs/factions_and_blocs.md)
@@ -38,3 +40,7 @@ The official Kaiserreich HOI4 repository is used as the starting reference for m
 The repository layout confirmed there should be compatibility with standard HOI4 mod organization, including `common`, `events`, `history`, `localisation`, `interface`, `map`, `gfx`, and test-support folders.
 
 When implementing Kaiserreich 2, prefer adapting existing Kaiserreich structures and naming conventions over creating incompatible replacements. Any direct imported content should be tracked so later changes can distinguish original Kaiserreich material from Kaiserreich 2 continuation work.
+
+## First Technical Milestone
+
+The first milestone is a playable KR2 shell: a valid HOI4 mod structure with documented upstream reference rules, ideology implementation, and initial country setup targets.
